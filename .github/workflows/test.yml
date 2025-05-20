@@ -3,10 +3,10 @@ name: Run Tests
 on:
   push:
     branches:
-      - main  # mainブランチにpushされたときに実行される
+      - day5
   pull_request:
     branches:
-      - main
+      - day5
 
 jobs:
   test:
